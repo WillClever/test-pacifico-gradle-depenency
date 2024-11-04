@@ -16,7 +16,7 @@ A continuación, se muestran las capturas de pantalla de los mensajes de Dependa
 En la imagen anterior, se observa una alerta de Dependabot que indica que no puede acceder a la información de vulnerabilidades para `com.pacifico.kuntur:core:0.17.0`.
 
 ### Configuración de `build.gradle`
-![build.gradle Configuration](./path/images/kuntur.png.png)
+![build.gradle Configuration](./path/images/kuntur.png)
 
 En el archivo `build.gradle`, se encuentra la configuración de la dependencia en la línea 46:
 
