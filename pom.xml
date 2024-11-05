@@ -13,14 +13,14 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.14.1</version> <!-- Esta versión es vulnerable -->
+            <version>2.17.1</version> <!-- Esta versión es vulnerable -->
         </dependency>
 
         <!-- Dependencia vulnerable a varias CVEs -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.0</version> <!-- Versión con varias vulnerabilidades -->
+            <version>2.12.7.1</version> <!-- Versión con varias vulnerabilidades -->
         </dependency>
 
         <!-- Dependencia de ejemplo adicional -->
