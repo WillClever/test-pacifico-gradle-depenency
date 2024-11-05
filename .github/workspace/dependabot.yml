@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # Revisa las dependencias del ecosistema de Maven (o Gradle)
+  - package-ecosystem: "maven" # o "gradle" si estás usando Gradle
+    directory: "/" # La ubicación de tu archivo pom.xml o build.gradle
+    schedule:
+      interval: "weekly" # Puedes cambiar a "daily" o "monthly" según tus necesidades
+    open-pull-requests-limit: 10 # Máximo de PRs abiertos al mismo tiempo
