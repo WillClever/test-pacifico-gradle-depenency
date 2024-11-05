@@ -10,6 +10,10 @@
     </properties>
     <dependencies>
         <!-- Dependencia de ejemplo -->
+        // Dependencia vulnerable a CVE-2021-44228 (Log4Shell)
+        implementation 'org.apache.logging.log4j:log4j-core:2.14.1' // Esta versión es vulnerable
+        // Dependencia vulnerable a varias CVEs
+        implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.0' // Versión con vulnerabilidades conocidas
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
