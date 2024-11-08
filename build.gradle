@@ -17,5 +17,5 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.example:mi-biblioteca:1.0.0-SNAPSHOT'
+    implementation 'com.example.test-gradle-biblioteca:1.0.0-SNAPSHOT'
 }
