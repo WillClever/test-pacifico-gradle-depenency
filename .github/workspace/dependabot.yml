@@ -8,7 +8,7 @@ updates:
     open-pull-requests-limit: 5 # Máximo de PRs abiertos al mismo tiempo
 registries:
   github:
-    type: "maven"
-    url: "https://maven.pkg.github.com/willclever/test-gradle-biblioteca"
+    type: "gradle"
+    url: "https://github.com/WillClever/test-gradle-biblioteca"
     username: "WillClever"
     password: "${{ secrets.DEPENDABOT_PACKAGE_REGISTRY_TOKEN }}"    
