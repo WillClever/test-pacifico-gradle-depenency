@@ -1,11 +1,5 @@
 version: 2
 updates:
-
-on:
-  push:
-    branches:
-      - main
-      
   - package-ecosystem: "gradle" 
     directory: "/" # La ubicación de tu archivo pom.xml o build.gradle
     schedule:
