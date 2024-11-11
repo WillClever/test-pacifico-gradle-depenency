@@ -8,7 +8,7 @@ version = '1.0.0-SNAPSHOT'
 repositories {
     mavenCentral()
     maven {
-        url = uri("https://maven.pkg.github.com/WillClever/test-maven-biblioteca")
+        url = uri("https://github.com/WillClever/test-gradle-biblioteca/packages/2307030")
         credentials {
             username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
             password = project.findProperty("gpr.token") ?: System.getenv("GITHUB_TOKEN")
@@ -17,6 +17,5 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.example.test-gradle-biblioteca:1.0.0-SNAPSHOT'
-    implementation 'com.example.test-gradle-biblioteca:1.0.0-SNAPSHOT'
+    implementation 'com.example:test-gradle-biblioteca:1.0.0-SNAPSHOT'  // Corrige el nombre aquí
 }
