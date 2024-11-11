@@ -6,3 +6,9 @@ updates:
     schedule:
       interval: "daily" # Puedes cambiar a "daily" o "monthly" según tus necesidades
     open-pull-requests-limit: 10 # Máximo de PRs abiertos al mismo tiempo
+registries:
+  github:
+    type: "maven"
+    url: "https://maven.pkg.github.com/willclever/test-gradle-biblioteca"
+    username: "WillClever"
+    password: "${{ secrets.DEPENDABOT_PACKAGE_REGISTRY_TOKEN }}"    
