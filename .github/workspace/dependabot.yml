@@ -4,13 +4,4 @@ updates:
     directory: "/" # La ubicación de tu archivo pom.xml o build.gradle
     schedule:
       interval: "daily" 
-    open-pull-requests-limit: 5 # Máximo de PRs abiertos al mismo tiempo
-    commit-message:
-      prefix: "chore"
-    versioning-strategy: "increase" 
-registries:
-  github:
-    type: "gradle"
-    url: "https://github.com/WillClever/test-gradle-biblioteca"
-    username: "WillClever"
-    password: "${{ secrets.DEPENDABOT_PACKAGE_REGISTRY_TOKEN }}"    
+    open-pull-requests-limit: 5 # Máximo de PRs abiertos al mismo tiempo  
