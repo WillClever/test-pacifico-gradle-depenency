@@ -11,6 +11,9 @@ on:
     schedule:
       interval: "daily" 
     open-pull-requests-limit: 5 # Máximo de PRs abiertos al mismo tiempo
+    commit-message:
+      prefix: "chore"
+    versioning-strategy: "increase" 
 registries:
   github:
     type: "gradle"
