@@ -18,4 +18,5 @@ repositories {
 
 dependencies {
     implementation 'com.example:test-gradle-biblioteca:1.0.0-SNAPSHOT'  // Corrige el nombre aquí
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.0'
 }
